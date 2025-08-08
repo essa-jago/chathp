@@ -1,0 +1,200 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://kanz116.pythonanywhere.com/viewimage?id=1");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.square {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.imagecontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#containerchat {
+    width: 350px;
+    height: 300px;
+    background-color: rgb(41, 41, 41);
+    border-style: solid;
+    border-left-width: 7px;
+    border-top-width: 7px;
+    border-bottom-width: 7px;
+    border-right-width: 0px;
+    border-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.file-upload {
+            display: none;
+        }
+
+.custom-button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.jisojiso {
+    display: flex;
+    flex-direction: row;
+    width: 380px;
+}
+
+#buatnulis {
+    height: 40px;
+    width: 90%;
+    background-color: rgb(41, 41, 41);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#chating {
+    width: 10%;
+}
+
+#containerfriend {
+    width: 350px;
+    height: 150px;
+    background-color: rgb(41, 41, 41);
+    border-style: solid;
+    border-left-width: 7px;
+    border-top-width: 7px;
+    border-bottom-width: 7px;
+    border-right-width: 0px;
+    border-color: rgb(255, 255, 255);
+    overflow-y: scroll;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+#containerfriend>button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-color: rgb(255, 255, 255);
+}
+
+#containerfriend>button:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+#containerfriend>div>button:hover {
+    background-color: rgb(180, 180, 180);
+}
+
+
+#containerfriend>div {
+    display: flex;
+    flex-direction: column;
+}
+
+#containerfriend>div>button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-color: rgb(255, 255, 255);
+}
+
+#addcon {
+    margin-bottom: 5px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+}
+
+#remcon {
+    margin-bottom: 20px;
+    border-top-width: 0px;
+    border-bottom-width: 2px;
+}
+
+.square2 {
+    height: 300px;
+    width: 300px;
+}
+
+.wrapper {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nolol {
+    display: flex;
+    flex-direction: column;
+}
+
+#thecon>div {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+#navbar {
+    display: flex;
+    padding: 15px;
+    background-color: rgb(47, 144, 255);
+}
+
+#namaa {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+#divapainiya {
+    width: 100px;
+}
+
+/* width */
+/*::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle 
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover 
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+*/
